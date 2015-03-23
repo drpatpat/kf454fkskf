@@ -40,6 +40,69 @@ body {
 
 .head {
 	width: 1000px;
-	height: 100px;
+	height: 120px;
 	background: #FFF;
+}
+
+.navbar {
+	width: 1000px;
+	height: 50px;
+	background: #000;
+}
+
+#menu {
+	line-height: 50px;
+	float: left;
+}
+
+	#menu li {
+		list-style-type: none;
+		display: inline;
+	}
+
+	#menu a {
+		text-decoration: none;
+		font-size: 16px;
+		font-family: "Comic Sans MS", cursive;
+		color: #FFF;
+		margin: 5px;
+		padding: 6px;
+	}
+
+		#menu a:hover {
+			color: #F63;
+			text-decoration: underline;
+		}
+
+.post_area {
+	width: 750px;
+	height: 600px;
+	background: #FFF;
+	float: left;
+}
+
+.sidebar {
+	width: 250px;
+	height: 600px;
+	background: #F99;
+	float: right;
+}
+
+.footer_area {
+	width: 1000px;
+	height: 100px;
+	background: #000;
+	color: #FFF;
+	clear: both;
+}
+
+#logo {
+	float: left;
+}
+#banner {
+	float: right;
+}
+#navbar-form {
+	float: right;
+	line-height: 50px;
 }
