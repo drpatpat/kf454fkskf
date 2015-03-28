@@ -19,8 +19,6 @@ time, mark, audio, video {
 	margin: 0;
 	padding: 0;
 	border: 0;
-	font-size: 100%;
-	font: inherit;
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
@@ -75,17 +73,22 @@ body {
 		}
 
 .post_area {
-	width: 750px;
-	height: 600px;
+	width: 730px;
 	background: #FFF;
+	float: left;
+	padding: 10px;
+}
+
+.post_area img {
 	float: left;
 }
 
 .sidebar {
-	width: 250px;
+	width: 249px;
 	height: 600px;
 	background: #F99;
 	float: right;
+	border-left: 1px solid #666;
 }
 
 .footer_area {
@@ -94,6 +97,26 @@ body {
 	background: #000;
 	color: #FFF;
 	clear: both;
+}
+
+.ltitle {
+	text-decoration: none;
+	font-size: 24px;
+	color: #000;
+	font-family: "Comic Sans MS", cursive;
+}
+
+.ltitle a:hover {
+	color: #F63;
+}
+
+.rmlink {
+	float: right;
+	background: #000;
+	color: #FFF;
+	padding: 8px;
+	text-decoration: none;
+	margin-top: 5px;
 }
 
 #logo {
