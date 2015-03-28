@@ -9,7 +9,7 @@
             $post_image = $posts_row['post_image'];
                         
             echo "
-                <h2><a class='ltitle' href='details.php?post=$post_id'>$post_title</a></h2>
+                <h2><a href='details.php?post=$post_id'>$post_title</a></h2>
                 <img src='admin/post_images/$post_image' width='100' height='100' />
             ";
         }

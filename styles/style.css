@@ -90,6 +90,20 @@ body {
 	border-left: 1px solid #666;
 }
 
+.sidebar h2 {
+	font-size: 16px;
+	text-align: center;
+}
+
+.sidebar a {
+	text-decoration: none;
+	color: #000;
+}
+
+.sidebar a:hover {
+	color: #CCC;
+}
+
 .footer_area {
 	width: 1000px;
 	height: 100px;

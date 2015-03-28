@@ -1,6 +1,13 @@
 <div class="post_area">
     <?php
-        $get_posts = "SELECT * FROM posts ORDER BY rand() LIMIT 0,5";
+        
+        if(isset($_GET['cat'])) {
+            $cat_id = $_GET['cat'];
+            $get_posts = "SELECT * FROM posts WHERE cat_id ='$cat_id'";
+        } else {
+            $get_posts = "SELECT * FROM posts ORDER BY rand() LIMIT 0,5";
+        }
+        
         $run_posts = $db->query($get_posts);
                     
         while($posts_row = $run_posts->fetch_array()) {
